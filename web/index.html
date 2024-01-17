@@ -13,15 +13,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <body>
         <h1>Join our email list</h1>
         <p>To join our email list, please fill out the form below.</p>
-        <form>
+        <form action="emailList" method="post">
+            <input type="hidden" name="action" value="add">
             <label>Email: </label>
             <input type="email" name="email" required>
             <br>
             <label>First Name </label>
-            <input type="text" name="First Name" required>
+            <input type="text" name="firstName" required>
             <br>
             <label>Last Name </label>
-            <input type="text" name="lLast Name" required>
+            <input type="text" name="lastName" required>
             <br>
             <input type="submit" value="Join Now">
         </form>
