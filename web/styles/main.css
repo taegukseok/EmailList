@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/*
+    Created on : Jan 16, 2024, 9:37:04 p.m.
+    Author     : Taeguk
+*/
+
+h1 {
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;
+}
+
+label {
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
